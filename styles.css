@@ -1,6 +1,80 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
-
-h1 {
-    color: green;
+body{
+  background-image:url("images/hard-paper-texture.jpg");
+  font-family:serif;
 }
+h1,h2,h3,h4,h5,h6{
+ font-family:"Trebuchet MS", Helvetica, sans-serif;
+ color:darkslategray;
+}
+
+header.page-header{
+  border:solid 4px darkkhaki;
+  background:lightgray;
+  margin:5px 5px 5px 5px;
+  padding:2px 10px 2px 10px;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+.page-header small{
+  font-size:medium;
+}
+aside.more-info{
+  border:solid 4px darkkhaki;
+  background:lightgray;
+  margin:5px 5px 5px 5px;
+  padding:2px 10px 2px 10px;
+  font-family:Arial, Helvetica, sans-serif;
+ 
+  
+}
+aside.more-info img{
+  width: 150px;
+  height: auto;
+  padding:5px 15px 5px 15px;
+  align-content;center;
+}
+section#content{
+  border:solid 4px darkkhaki;
+  background:lightgray;
+  margin:5px 5px 5px 5px;
+  padding:2px 10px 2px 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+.poem{
+  list-style-type: none;
+ }
+.poem li{
+  font-size:large;
+  line-height:1.4;
+  
+}
+footer.content-footer{
+  border:solid 2px tan;
+  background:darkkhaki;
+  margin:5px 5px 5px 5px;
+  padding:2px 10px 2px 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+footer.page-footer{
+  border:solid 4px darkkhaki;
+  background:lightgray;
+  margin:5px 5px 5px 5px;
+  padding:2px 10px 2px 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+.page-credits{
+  border:solid 2px tan;
+  background:darkkhaki;
+  margin:5px 5px 5px 5px;
+  padding:2px 10px 2px 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+
+ 
+
